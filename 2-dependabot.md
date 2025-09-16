@@ -2,7 +2,7 @@
 
 The Github solution to minimize security vulnerabilities is called Dependabot.
 
-You can see it active in this repository.
+You can see it active in this organization.
 
 ## Enforcement
 
@@ -19,4 +19,8 @@ A few things could be done in time to help reduce the amount of vulnerabilities 
 https://github.com/actions/dependency-review-action
 
 - A public ranking of the amount of vulnerabilities by teams could be done.
+
+## Implementation
+
+Dependabot is currently implemented in this organization. Furthermore, merging a branch to master is deactivated if that introduces a new vulnerability. This can be seen in the repository named "vulnerable-project".
 
