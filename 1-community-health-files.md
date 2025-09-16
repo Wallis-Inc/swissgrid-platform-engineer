@@ -29,7 +29,15 @@ This can be a place to mention:
 
 This can be used as a place to mention specific security considerations, or a possible reporting path different from the default one.
 
-## Pull request template / issue templates
+### README.md
+
+A classic read me describing the project and documenting it.
+
+### SUPPORT.md
+
+A file listing the people responsible for the project, and generally where help can be found if needed.
+
+### Pull request template / issue templates
 
 Templates can be given for PRs and issues, pushing users to give information in a certain way.
 
@@ -52,3 +60,8 @@ Since the change would effectively block new development when implemented, it wo
 For example, a first version could not block merges entirely, but fail and create a GH-issue indicating the need for a change. The second version, implemented after a certain grace period, would fully block non-compliant merges through a organization-wide rule set.
 
 Teams need to enforced well in advance of the upcoming changes.
+
+
+## Implementation
+
+This test organization currently has a rule set preventing branches from being merged to main unless they have a README.md and SUPPORT.md file. In addition, default files for many health files can be found in the .github repository. The merge-blocking is demonstrated inthe repository named "non-compliant". In addition to blocking the merge, a github issue is automatically created to inform about the missing files.
