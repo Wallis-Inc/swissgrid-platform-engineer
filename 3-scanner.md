@@ -24,3 +24,7 @@ Since we do not know whether this vulnerability will be patched, we recommend yo
 We thank you for your understanding, and remain at your disposal in case of questions.
 
 Your platform team.
+
+## Implementation
+
+You can find a repository named "action-scanner" containing a simple python script scanning all repositories in an organization, provided it is given a fine-grained token in a .env file. In addition, the action filtering is active throughout the organization and demonstrated in the "leak-password" repo (I've chosen to block a random action instead of leak-password).
